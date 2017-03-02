@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Grabjet</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<!-- main -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.cxcalendar.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>	
+	<script src="jquery.js"></script>
+	<script src="jquery.cxcalendar.js"></script>
+	</head>
+	<body>
+	
+<div id="page">
+	<nav class="grab-nav" role="navigation">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-3">
+					<div id="logo"><a href="https://www.grab.com/sg/">
+					<img src="images/logo1_os.png" width="141" height="39" alt="" /></a>
+					</div>
+				</div>
+				<div class="col-md-9 " >
+				
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li class="not-active"><a href="#">GrabLimo</a></li>
+						<li class="not-active"><a href="#">GrabCruise</a></li>
+						<li class="not-active"><a href="#">GrabCopter</a></li>
+					</ul>
+				
+				</div>
+			</div>	
+		</div>
+	</nav>
+
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);"></header>
+	
+<div id="new-fm">
+  <form action="/action_page.php">
+    <label for="pickup">Pick-up</label>
+    <input type="text" id="pu" name="firstname" placeholder="Your name..">
+
+    <label for="dropoff">Drop-off</label>
+    <input type="text" id="do" name="lastname" placeholder="Your last name..">
+
+    <select id="country" name="country">
+      <option value="1">Flight attendant (+ $300)</option>
+      <option value="2">Full kitchen (+ $100)</option>
+      <option value="3">Massage (+ $50)</option>
+	  <option value="4">Jacuzzi (+ $180)</option>
+    </select>
+	<fieldset>
+		<label for="date_a">Date</label>
+		<input id="date_a" name="mydate" type="text" readonly>
+	</fieldset>
+    <input type="submit" value="Request a Jet         $199">
+  </form>
+</div>
+
+	<div id="gtco-features">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-eye"></i>
+						</span>
+						
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-command"></i>
+						</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-power"></i>
+						</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    
+
+
+	<footer id="gtco-footer" role="contentinfo">
+		<div class="gtco-container">
+			<div class="row row-pb-md">
+				<div class="col-md-9 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="gtco-footer-links">
+						<li><a href="#">GrabLimo</a></li>
+						<li><a href="#">GrabCruise</a></li>
+						<li><a href="#">GrabCopter</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 copyright">
+					Copyright Grab.com 2017. All Right
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script src="js/jquery.cxcalendar.min.js"></script>
+	<script src="js/jquery.cxcalendar.languages.js"></script>
+	<script>$('#date_a').cxCalendar();</script>
+	</body>
+</html>
+
